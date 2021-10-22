@@ -61,7 +61,7 @@ int main(int argc, const char **argv)
     float end_x;
     float end_y;
 
-    std::cout << "Enter values, separated by a space, for start_x, start_y, end_x, and end_y: ";
+    std::cout << "Enter values for start_x, start_y, end_x, and end_y (separated by spaces): ";
     std::cin >> start_x >> start_y >> end_x >> end_y;
 
     // Build Model.
