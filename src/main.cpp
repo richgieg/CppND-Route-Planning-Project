@@ -60,14 +60,9 @@ int main(int argc, const char **argv)
     float start_y;
     float end_x;
     float end_y;
-    std::cout << "Enter value for start_x: ";
-    std::cin >> start_x;
-    std::cout << "Enter value for start_y: ";
-    std::cin >> start_y;
-    std::cout << "Enter value for end_x: ";
-    std::cin >> end_x;
-    std::cout << "Enter value for end_y: ";
-    std::cin >> end_y;
+
+    std::cout << "Enter values, separated by a space, for start_x, start_y, end_x, and end_y: ";
+    std::cin >> start_x >> start_y >> end_x >> end_y;
 
     // Build Model.
     RouteModel model{osm_data};
