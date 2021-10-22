@@ -1,6 +1,6 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+This repo contains the completed code for the Route Planning project.
 
 <img src="map.png" width="600" height="450" />
 
@@ -8,11 +8,11 @@ This repo contains the starter code for the Route Planning project.
 
 When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
 ```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone https://github.com/richgieg/CppND-Route-Planning-Project.git --recurse-submodules
 ```
 or with SSH:
 ```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone git@github.com:richgieg/CppND-Route-Planning-Project.git --recurse-submodules
 ```
 
 ## Dependencies for Running Locally
@@ -29,7 +29,7 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
 * IO2D
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
   * This library must be built in a place where CMake `find_package` will be able to find it
- 
+
 
 ## Compiling and Running
 
@@ -69,8 +69,8 @@ The testing executable is also placed in the `build` directory. From within `bui
     endif()
     ```
     And then run "ALL_Build" and "install" in XCode.
-    
-    If any packages are missing try to install packages using 
+
+    If any packages are missing try to install packages using
     ```
     brew install pkg-config
     ```
@@ -91,14 +91,14 @@ The testing executable is also placed in the `build` directory. From within `bui
 	cmake --build .
 	sudo make install
    ```
-     
+
  * If you are working on windows and unable to install IO2D:
-      * Enable WSL (Windows Subsystem for Linux) and use a distribution like [Ubuntu](https://ubuntu.com/wsl).(available from the windows store): 
+      * Enable WSL (Windows Subsystem for Linux) and use a distribution like [Ubuntu](https://ubuntu.com/wsl).(available from the windows store):
       * Install the required dependencies (compiler, cmake etc.) in the WSL(as mentioned above for ubuntu)
       * Configure CLion to use the WSL [toolchain](https://www.jetbrains.com/help/clion/how-to-use-wsl-development-environment-in-product.html#wsl-tooclhain)
       * Use the WSL toolchain to build the project
       * If you are still facing errors, visit this [link](https://github.com/udacity/CppND-Route-Planning-Project/issues/9).
-     
+
 
 * If you are facing errors with --config try to remove -- from the command.
 
